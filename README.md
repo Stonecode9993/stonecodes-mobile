@@ -1,1 +1,1 @@
-this is my first project and thins are not working as expected
+this is my first project and things are not working as expected
