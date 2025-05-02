@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobileHub - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><marquee>STONECODE'S MOBILES</marquee></h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Latest Smartphones</h2>
+                <p>Discover the newest technology at unbeatable prices</p>
+                <a href="shop.html" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/phone2.webp" alt="Smartphone 1">
+                    <h3>Iphone SUMSUNG GALAXY </h3>
+                    <p class="price">$200</p>
+                    <a href="shop.html" class="btn">View Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="images/phone1.jpg" alt="Smartphone 2">
+                    <h3>iPhone 14 Pro</h3>
+                    <p class="price">$1099.99</p>
+                    <a href="shop.html" class="btn">View Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="images/phone3.webp" alt="Smartphone 3">
+                    <h3>Pixel 7 Pro</h3>
+                    <p class="price">$899.99</p>
+                    <a href="shop.html" class="btn">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>Categories</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <a href="shop.html?category=smartphones">
+                        <img src="images/phone4.webp" alt="Smartphones">
+                        <h3>Smartphones</h3>
+                    </a>
+                </div>
+                <div class="category-card">
+                    <a href="shop.html?category=accessories">
+                        <img src="images/phone5.webp" alt="Accessories">
+                        <h3>Accessories</h3>
+                    </a>
+                </div>
+                <div class="category-card">
+                    <a href="shop.html?category=wearables">
+                        <img src="images/phone6.jpg" alt="Wearables">
+                        <h3>Wearables</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest updates on new products and special promotions</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Your Email Address" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MobileHub</h3>
+                <p>Your one-stop shop for the latest mobile phones and accessories.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="admin.html">Admin</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@mobilehub.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MobileHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
